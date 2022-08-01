@@ -1,0 +1,23 @@
+{
+  "name": "html-css-java-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shervinnj/html-css-js-project-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shervinnj/html-css-js-project-final/issues"
+  },
+  "homepage": "https://github.com/shervinnj/html-css-js-project-final#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
