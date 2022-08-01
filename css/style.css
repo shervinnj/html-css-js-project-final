@@ -26,6 +26,7 @@ body{
 h1,h2,h3{
     color:var(--color-heading);
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 h1{
@@ -466,7 +467,7 @@ a{
 }
 
 @media screen and (min-width:1024px) {
-    .grid--col-2{
+    .grid--col-3{
         grid-template-columns: repeat(3,1fr);
     }
     
@@ -587,7 +588,7 @@ a{
 /* blocks */
 
 .block{
-    --padding-vertical:6rem;
+--padding-vertical:6rem;
 
     padding: 6rem 2rem;
     
@@ -688,3 +689,41 @@ a{
     }
   
 } 
+
+#particles-js{
+    background: black;
+    /* display: flex; */
+    margin-left: 100px;
+
+  
+}
+
+
+/* Hero */
+.hero{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+
+.hero__tagline{
+    font-size: 2rem;
+    color: #b9c3cf;
+    letter-spacing: 1px;
+    margin: 2rem 0 5rem;
+    
+}
+
+@media screen and (min-width:768px){
+    .hero{
+        padding-top: 0;
+    }
+    .hero__content{
+        text-align: left;
+        align-self: center;
+    }
+    
+}
+.tag{
+    color: white;
+    padding-bottom: 50px
+}
